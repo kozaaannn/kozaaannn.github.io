@@ -1,241 +1,267 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <!-- boostrap css -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-        <!--boostrap icons  -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
-        <!-- my css -->
-        <link rel="stylesheet" href="style.css" />
-        <title>halaman keluarga besar H.Mukhsin</title>
-    </head>
-    <body id="home">
-        <!-- navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">Keluarga H.Mukhsin</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#about family">About family</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#galeri family">Galeri family </a>
-            </ul>
-            </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Halaman Keluarga Besar H. Mukhsin</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+  <!-- Lightbox CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <style>
+    .jumbotron {
+      padding-top: 6rem;
+      background-color: #e2edff;
+    }
+    section {
+      padding-top: 5rem;
+    }
+    .navbar-brand {
+      font-weight: bold;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      transition: 0.3s;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    .jumbotron img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+
+<body id="home">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Keluarga H. Mukhsin</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About Family</a></li>
+        <li class="nav-item"><a class="nav-link" href="#galeri">Galeri Family</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Jumbotron -->
+<section class="jumbotron text-center">
+  <img src="img/foto.jpeg" alt="Keluarga H.Mukhsin" class="img-thumbnail">
+  <h1 class="display-4">Keluarga H. Mukhsin</h1>
+  <p class="lead text-danger fw-bold">Web khusus keluarga besar H. Mukhsin</p>
+</section>
+
+<!-- About Section -->
+<section id="about">
+  <div class="container">
+    <div class="row text-center mb-4">
+      <div class="col">
+        <h2>About Family</h2>
+      </div>
+    </div>
+    <div class="row fs-5 text-center">
+      <div class="col-md-6">
+        <h3>Ayah & Ibu</h3>
+        <p>Mukhsin - Madsv</p>
+
+        <h3>Anak & Menantu</h3>
+        <p>
+          Siti Husnah - <br>
+          Murni - Asrori <br>
+          Sofian Hadidi - Mulyati <br>
+          Edy Maryadi - Aminah <br>
+          Zainal Muttaqin - Siti Robia <br>
+          Hany Wiindary - Achmad Turki
+        </p>
+      </div>
+      <div class="col-md-6">
+        <h3>Cucu</h3>
+        <p>
+          Muhammad Andika Rachman <br>
+          Dicky Achmad Fahrezi (Kozan) <br>
+          Muhammad Farell Akbar <br>
+          Muhammad Sabil Athallah <br>
+          Naufal Ayash Fadillah <br>
+          Kaiserin Zahabiya Agyat <br>
+          Antaqiyah Innayah Agyat
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Galeri Section -->
+<section id="galeri">
+  <div class="container">
+    <div class="row text-center mb-4">
+      <div class="col">
+        <h2>Galeri Family</h2>
+      </div>
+    </div>
+    <div class="row g-3">
+      <!-- Gambar Galeri -->
+      <div class="col-md-4">
+        <div class="card">
+          <a href="projects/1.jpeg" data-lightbox="galeri-family" data-title="Ulang Tahun KK Biya ke 2 Tahun">
+            <img src="projects/1.jpeg" class="card-img-top" alt="Ulang Tahun KK Biya">
+          </a>
+          <div class="card-body">
+            <p class="card-text">Ulang Tahun KK Biya ke 2 Tahun</p>
+          </div>
         </div>
-        </nav>
-        <!-- akhir navbar -->
-        <!--jumbotron  -->
-        <section class="jumbotron text-center">
-        <img src="img/foto.jpeg"  alt="keluarga H.Mukhsin"/>
-        <h1 class="display-4">Keluarga H.Mukhsin</h1>
-        <web class="lead text-danger fw-bold">web khusus keluarga , Keluarga Besar H.Mukhsin</p>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path
-            fill="#f3f4f5"
-            fill-opacity="1"
-            d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-            ></path>
-        </svg>
-        </section>
-        <!-- akhir jumbotron -->
-        <!--About  -->
-        <section id="about family">
-        <div class="container">
-            <div class="row text-center mb">
-            <div class="col">
-                <h1>About Family</h1    >
-                <br>
-                <br>
-            </div>
-            </div>
-            <div class="row text-center fs-5">
-            <div class="col">
-                <p>
-                    <h2>
-                    Ayah & dsvdsvsdIbu</h2>
-                    <br />
-                    Mukhsin - Madsv
-                    <br>
-                    <br>
-                    <H2>
-                    Anak & Menantuddsvsdvddsefdvvds
-                    </H2>
-                    <br>
-                    Siti Hsdvdsvsdusnah -
-                    <br />
-                    Murni - Asrorivdsds
-                <br>
-                Sofian Hadscsdcdi - Mulyati
-                <br>
-                Edy Maryadi - Aminah 
-                <br>
-                Zainal Muttaqin - Sitidvsdv Robia
-                <br>
-                Hany Wiindary - Achmadvsdsvd Turki
-            </div>
-            <div class="col">
-                <h2>
-                    CUCU
-                </h2>  
-                <br>
-                Muhammad Andika Rachman
-                <br>
-                Dicky Achmad Fahrezi(kozan)
-                <br>
-                Muhammad Farell Akbarsvdds
-                <br>
-                Muhammad Sabil Athallah
-                <br>
-                Naufal Ayash Fadillah
-                <br>
-                Kaiserin Zahabiya Agyat 
-                <br>
-                Antaqiyah Innayah Agyat 
-                </p><div>
-                </div>
-            </div>
-            </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <a href="projects/2.jpeg" data-lightbox="galeri-family" data-title="Ziarah Kakek 2021">
+            <img src="projects/2.jpeg" class="card-img-top" alt="Ziarah Kakek">
+          </a>
+          <div class="card-body">
+            <p class="card-text">Ziarah Kakek Tahun 2021</p>
+          </div>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#a2d9ff" fill-opacity="1" d="M0,192L48,181.3C96,171,192,149,288,160C384,171,480,213,576,208C672,203,768,149,864,112C960,75,1056,53,1152,64C1248,75,1344,117,1392,138.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-        </section>
-        <!-- Akhir About -->
-        <!-- project -->
-        <section id="galeri family">
-            <div class="container">
-                <div class="row text-center">
-                    <div class="col">
-                        <h2>Galeri family</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-4">
-                        <div class="card">
-                            <img src="projects/1.jpeg" class="card-img-top" alt="projec1">
-                            <div class="card-body">
-                              <p class="card-text">Ulang Tahun Kk Biya ke 2 Tahun</p>
-                                </div>
-                              </div>
-                            </div>
-                    <div class="col-4">
-                        <div class="card">
-                            <img src="projects/2.jpeg" class="card-img-top" alt="projec2">
-                            <div class="card-body">
-                              <p class="card-text">Ziarah kuburan kakek tahun 2021.</p>
-                                </div>
-                              </div>
-                            </div>
-                    <div class="col-4">
-                        <div class="card">
-                            <img src="projects/2.jpeg" class="card-img-top" alt="project3">
-                            <div class="card-body">
-                              <p class="card-text">Lebaran Ied Fitri Tahun 2021</p>
-                                </div>
-                              </div>
-                            </div>
-                    <div class="col-4">
-                        <div class="card">
-                            <img src="projects/2.jpeg" class="card-img-top" alt="project4">
-                            <div class="card-body">
-                              <p class="card-text">ajhyfuyfcara main ke taman honda 2020</p>
-                                </div>
-                              </div>
-                            </div>
-                    <div class="col-4">
-                        <div class="card">
-                            <img src="projects/5.jpeg" class="card-img-top" alt="project5">
-                            <div class="card-body">
-                              <p class="card-text">Lebaran Tahun 2019</p>
-                                </div>
-                              </div>
-                            </div>
-                    <div class="col-4">
-                        <div class="card">
-                            <img src="projects/6.jpeg" class="card-img-top" alt="project6">
-                            <div class="card-body">
-                              <p class="card-text">acara main ke rumah mpo nu 2020r</p>
-                                </div>
-                              </div>
-                            </div>
-                    <div class="col-4">
-                        <div class="card">
-                            <img src="projects/7.jpeg" class="card-img-top" alt="project7">
-                            <div class="card-body">
-                              <p class="card-text">acara main ke taman cibubur 2020</p>
-                                </div>
-                              </div>
-                            </div>
-                    <div class="col-4">
-                        <div class="card">
-                            <img src="projects/8.jpeg" class="card-img-top" alt="project8">
-                            <div class="card-body">
-                              <p class="card-text">acara pernikahan ka hany</p>
-                                </div>
-                              </div>
-                            </div>
-                    <div class="col-4">
-                        <div class="card">
-                            <img src="projects/9.jpeg" class="card-img-top" alt="project9">
-                            <div class="card-body">
-                              <p class="card-text">acara arisan 2019</p>
-                                </div>
-                              </div>
-                            </div>
-                              </div>
-                            </div>
-                          </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f3f4f5" fill-opacity="1" d="M0,192L48,197.3C96,203,192,213,288,224C384,235,480,245,576,218.7C672,192,768,128,864,117.3C960,107,1056,149,1152,149.3C1248,149,1344,107,1392,85.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-        </section>
-        <!-- akhir project -->
-        <!-- contact me -->
-        <section id="Contact">
-            <div class="container">
-                <div class="row text-center mb-3">
-                    <div class="col">
-                        <h2> Contact Me</h2>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-md-6">
-                        <form>
-                            <div class="mb-3">
-                              <label for="name" class="form-label">Nama Lengkap</label>
-                              <input type="text" class="form-control" id="name" aria-describedby="name">
-                            </div>
-                            <div class="mb-3">
-                              <label for="email" class="form-label">Email</label>
-                              <input type="email" class="form-control" id="emaill" aria-describedby="email">
-                              <div class="mb-3">
-                                <label for="pesan" class="form-label">Pesan</label>
-                                <textarea class="form-control" id="pesan" rows="3"></textarea>
-                              </div>
-                            <button type="submit" class="btn btn-primary">Kirim
-                            </button>
-                          </form>
-                    </div>
-                </div>
-            </div>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0d6efd" fill-opacity="1" d="M0,32L48,53.3C96,75,192,117,288,138.7C384,160,480,160,576,160C672,160,768,160,864,138.7C960,117,1056,75,1152,64C1248,53,1344,75,1392,85.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-        </section>
-        <!-- akhir contact -->
-        <!-- footer -->
-        <footer class="bg-primary text-white text-center pb-5">
-            <p>Created With <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/kozaannnn/" class="text-white fw-bold">kozaannnn</a></p>
-        </footer>
-        <!-- akhir footer -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    </body>
-    </html>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <a href="projects/3.jpeg" data-lightbox="galeri-family" data-title="Lebaran Idul Fitri 2021">
+            <img src="projects/3.jpeg" class="card-img-top" alt="Lebaran 2021">
+          </a>
+          <div class="card-body">
+            <p class="card-text">Lebaran Idul Fitri 2021</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tambahkan gambar berikutnya sesuai file kamu -->
+      <div class="col-md-4">
+        <div class="card">
+          <a href="projects/4.jpeg" data-lightbox="galeri-family" data-title="Main ke Taman Honda 2020">
+            <img src="projects/4.jpeg" class="card-img-top" alt="Taman Honda">
+          </a>
+          <div class="card-body">
+            <p class="card-text">Main ke Taman Honda 2020</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <a href="projects/5.jpeg" data-lightbox="galeri-family" data-title="Lebaran 2019">
+            <img src="projects/5.jpeg" class="card-img-top" alt="Lebaran 2019">
+          </a>
+          <div class="card-body">
+            <p class="card-text">Lebaran 2019</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <a href="projects/6.jpeg" data-lightbox="galeri-family" data-title="Main ke Rumah Mpo Nu 2020">
+            <img src="projects/6.jpeg" class="card-img-top" alt="Rumah Mpo Nu">
+          </a>
+          <div class="card-body">
+            <p class="card-text">Main ke Rumah Mpo Nu 2020</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <a href="projects/7.jpeg" data-lightbox="galeri-family" data-title="Taman Cibubur 2020">
+            <img src="projects/7.jpeg" class="card-img-top" alt="Taman Cibubur">
+          </a>
+          <div class="card-body">
+            <p class="card-text">Taman Cibubur 2020</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <a href="projects/8.jpeg" data-lightbox="galeri-family" data-title="Pernikahan Ka Hany">
+            <img src="projects/8.jpeg" class="card-img-top" alt="Pernikahan Ka Hany">
+          </a>
+          <div class="card-body">
+            <p class="card-text">Pernikahan Ka Hany</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <a href="projects/9.jpeg" data-lightbox="galeri-family" data-title="Arisan 2019">
+            <img src="projects/9.jpeg" class="card-img-top" alt="Arisan 2019">
+          </a>
+          <div class="card-body">
+            <p class="card-text">Arisan 2019</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+  <div class="container">
+    <div class="row text-center mb-4">
+      <div class="col">
+        <h2>Contact Me</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Nama Lengkap</label>
+            <input type="text" class="form-control" id="name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="pesan" class="form-label">Pesan</label>
+            <textarea class="form-control" id="pesan" rows="3" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Kirim</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-primary text-white text-center py-3">
+  <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/kozaannnn/" class="text-white fw-bold">kozaannnn</a></p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Lightbox JS -->
+<script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/js/lightbox.min.js"></script>
+
+</body>
+</html>
