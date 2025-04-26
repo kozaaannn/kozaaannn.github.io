@@ -1,13 +1,97 @@
-body {
-  min-height: 3000px;
+
+/* General reset */
+* {
+  scroll-behavior: smooth;
 }
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(135deg, #007bff, #6610f2);
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.nav-link {
+  margin-right: 1rem;
+}
+.nav-link:hover {
+  color: #ffc107;
+}
+
+/* Jumbotron */
 .jumbotron {
-  padding-top: 6rem;
-  background-color: rgb(172, 169, 169);
+  padding-top: 8rem;
+  padding-bottom: 6rem;
+  background: linear-gradient(135deg, #c3e0e5, #f5f7fa);
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 }
-#projects {
-  background-color: #a2d9ff;
+.jumbotron img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
+.jumbotron h1 {
+  margin-top: 1rem;
+  font-weight: 700;
+}
+.jumbotron p {
+  font-size: 1.2rem;
+  color: #dc3545;
+  font-weight: bold;
+}
+
+/* Section */
 section {
-  padding-top: 5rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
+
+/* About */
+#about h2, #galeri h2, #contact h2 {
+  font-weight: bold;
+  color: #0d6efd;
+  margin-bottom: 2rem;
+}
+
+/* Card Galeri */
+.card {
+  border: none;
+  overflow: hidden;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card img {
+  border-radius: 15px 15px 0 0;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Form Contact */
+form input, form textarea {
+  border-radius: 10px;
+}
+form button {
+  border-radius: 10px;
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(135deg, #007bff, #6610f2);
+}
+footer p {
+  margin-bottom: 0;
+}
+footer a {
+  color: #ffc107;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+

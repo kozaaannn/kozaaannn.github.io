@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Keluarga H.Mukhsin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#">Keluarga H.Mukhsin</a>
+            <button id="loginBtn" class="btn">Login</button>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <section class="jumbotron">
+        <h1>Selamat Datang di Keluarga H.Mukhsin</h1>
+        <p>Ini adalah situs keluarga besar H. Mukhsin.</p>
+    </section>
+
+    <!-- Form Login (hidden by default) -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" id="closeBtn">&times;</span>
+            <h2>Login</h2>
+            <form id="loginForm" class="login-form">
+                <div class="input-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" placeholder="Masukkan username" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Masukkan password" required>
+                </div>
+                <button type="submit" class="btn-login">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Keluarga H.Mukhsin</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
